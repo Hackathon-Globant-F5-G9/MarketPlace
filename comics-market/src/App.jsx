@@ -13,8 +13,8 @@ function App() {
       <Card></Card>
       
       <Button text="COMPRAR"></Button>
-      <Button text="VENDER" forma="orange"></Button>
-      <Button text="AGREGAR AL CARRITO" forma="orange"></Button>
+      <Button text="VENDER" buttonClass="orange"></Button>
+      <Button text="AGREGAR AL CARRITO" buttonClass="black"></Button>
     </>
   )
 }
