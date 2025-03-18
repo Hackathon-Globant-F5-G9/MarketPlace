@@ -1,16 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { useState } from 'react'
 import NavBar from "./components/NavBar/NavBar.jsx";
 import './App.css'
 import Card from './components/Card/Card'
 import Button from './components/Button/Button'
+import HomePage from './pages/HomePage'
 
 function App() {
   
 
   return (
     <>
+    <header >
+        <NavBar />
+      </header>
+      <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
       <Card></Card>
       
       <Button text="COMPRAR"></Button>
