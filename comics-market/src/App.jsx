@@ -3,22 +3,19 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import { useState } from 'react'
 import NavBar from "./components/NavBar/NavBar.jsx";
 import './App.css'
+import Card from './components/Card/Card'
+import Button from './components/Button/Button'
+
 function App() {
   
 
   return (
     <>
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Inicio />} />
-          {/* <Route path="/Sobrenosotros" element={<Sobrenosotros />} />
-          <Route path="/Adopta" element={<><Adopta /><CatsSlider /></>} />
-          <Route path="/Contacto" element={<AdoptForm />} />
-          <Route path="/construction" element={<PageInConstruction />} /> */}
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </Router>
+      <Card></Card>
+      
+      <Button text="COMPRAR"></Button>
+      <Button text="VENDER" forma="orange"></Button>
+      <Button text="AGREGAR AL CARRITO" forma="orange"></Button>
     </>
   )
 }
