@@ -1,10 +1,10 @@
 import "./Button.css";
 
-const Button = ({text, forma, handleClick}) => {
+const Button = ({text, buttonClass, handleClick}) => {
 
     return (
     <>
-    <button className={forma} onClick={handleClick} >{text}</button>
+    <button className={buttonClass} onClick={handleClick} >{text}</button>
     </>
   );
 };
