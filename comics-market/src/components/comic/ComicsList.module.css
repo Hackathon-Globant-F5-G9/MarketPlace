@@ -60,6 +60,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
+    margin-top: 8%;
 }
 
 .comicName {
