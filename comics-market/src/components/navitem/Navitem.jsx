@@ -1,6 +1,6 @@
-import styles from "./Navitem.module.css";
+import styles from "./NavItem.module.css";
 
-export default function NavItem({ href, text }) {
+export default function Navitem({ href, text }) {
   return (
     <li className={styles.navItem}>
       <a href={href} className={styles.navLink}>

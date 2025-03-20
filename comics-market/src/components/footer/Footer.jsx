@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 import Navbar from "../navbar/Navbar";
-import NavItem from "../navitem/NavItem";
+import NavItem from "../navitem/Navitem";
 import Logo from "../logo/Logo";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
