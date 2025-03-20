@@ -181,6 +181,6 @@ main {
   width: 100%;
   min-height: calc(100vh - 20vh);
   /* Resta el espacio del Header y Footer */
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: var(--quinary-color);
 }
