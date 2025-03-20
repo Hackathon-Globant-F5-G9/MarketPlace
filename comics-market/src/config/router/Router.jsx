@@ -12,6 +12,7 @@ export default function Router() {
     <BrowserRouter>
       <FavoritesProvider>
         <Routes>
+          <Route path="/" element={<WelcomePage />} />
           <Route path="/welcome" element={<WelcomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} />

@@ -9,8 +9,10 @@ export default function WelcomePage() {
       <Header />
       <div className={styles.container}>
         <h1>BOOM COMICS</h1>
-        <h2>The Ultimate Comic Heaven!</h2>
-        <h6 className={styles.blueTitle}>WELCOME PAGE</h6>
+        <h6 className={styles.container}>The Ultimate Comic Heaven!</h6>
+        <p className={styles.text}>
+          WHERE LEGENDS ARE BORN! Exclusive, limited-edition comics await—rare finds, iconic stories, unstoppable passion. Enter the ultimate collector’s universe! 💥🔥
+        </p>
       </div>
       <Footer />
     </>
