@@ -13,8 +13,9 @@ export default function Header() {
         <NavItem href="/home" text="Home" />
         <NavItem href="/favorites" text="Favorites" />
       </Navbar>
-      <Button className={clsx(styles.button, styles.logIn)} text="Log in" />
-      <Button className={clsx(styles.button, styles.sell)} text="Sell" />
+      <Button buttonClass="logIn" text="Log in" />
+      <Button buttonClass="sell" text="Sell" />
+
     </header>
   );
 }
