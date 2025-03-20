@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../NavBar/Navbar";
 import NavItem from "../navitem/NavItem";
 import Logo from "../logo/Logo";
 import { FaFacebook } from "react-icons/fa";
