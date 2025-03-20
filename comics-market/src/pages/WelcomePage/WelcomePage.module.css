@@ -4,15 +4,15 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   background-color: hsl(0, 0%, 0%);
   color: white;
-  font-size: 15rem;
   font-family: "Jersey 25", sans-serif;
   font-weight: 500;
   padding-top: 20px;
-  margin-top: 50px;
+  margin-top: 150px;
+  font-size: 10rem;
 }
 
 .container h1 {
@@ -28,40 +28,47 @@
 
 .container h6 {
   text-align: center;
-  width: 100%;
   margin-top: 10px;
-  padding-left: 100px;
 }
 
 .text {
   font-size: 2.5rem;
   font-weight: 300;
-  margin-top: 20px;
-  padding-left: 100px;
+  margin-bottom: 200px;
 }
-
-
 
 /* Media Queries para responsividad */
 @media (max-width: 1280px) {
- .container {
-    font-size: 10rem;
-      margin-top: 100px;
+  .container {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  .text {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .container {
-    font-size: 8rem;
-    
-  margin-top: 20px;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .text {
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    font-size: 7rem;
-    
-  margin-top: 220px;
+    font-size: 4rem;
+    margin-top: 220px;
+    height: 60vh;
+  }
+
+  .text {
+    font-size: 1.5rem;
+    padding: 20px;
+
+    margin-bottom: 20px;
   }
 }
