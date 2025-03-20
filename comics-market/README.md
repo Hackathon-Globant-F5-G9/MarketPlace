@@ -2,7 +2,7 @@
 
 ## 🚀 Descripción
 
-Este proyecto es un **marketplace de compra y venta de cómics de edición limitada**, desarrollado con **React, Spring Boot y Java**. Permite a los usuarios explorar cómics exclusivos y añadir sus favoritos a una lista personalizada.El objetivo es crear una plataforma sencilla y funcional donde los usuarios puedan listar sus cómics a la venta y otros puedan comprarlos.
+Este proyecto es un **marketplace de compra y venta de cómics de edición limitada**, desarrollado con **React, Spring Boot y Java**. Permite a los usuarios explorar cómics exclusivos. El objetivo es crear una plataforma sencilla y funcional donde los usuarios puedan listar sus cómics a la venta y otros puedan comprarlos.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -15,9 +15,7 @@ Este proyecto es un **marketplace de compra y venta de cómics de edición limit
 
 ✅ Exploración de cómics de edición limitada  
 ✅ Sistema de compra y venta de cómics  
-✅ Agregar cómics a una lista de favoritos  
 ✅ Interfaz intuitiva y responsive  
-✅ Autenticación de usuarios  
 
 ## ⚡ React + Vite
 
@@ -46,6 +44,7 @@ Si deseas mejorar la calidad del código en un entorno de producción, recomenda
 
 ## 📌 Próximas Mejoras
 
+🔹 Añadir listado de favoritos
 🔹 Implementación de pagos
 🔹 Sistema de reseñas y comentarios
 🔹 Notificaciones para los usuarios
