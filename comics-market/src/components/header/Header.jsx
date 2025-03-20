@@ -1,8 +1,8 @@
 import styles from "./Header.module.css";
 import Logo from "../logo/Logo";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../NavBar/Navbar";
 import NavItem from "../navitem/NavItem";
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import clsx from "clsx";
 
 export default function Header() {
