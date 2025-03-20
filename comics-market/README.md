@@ -39,7 +39,11 @@ Si deseas mejorar la calidad del código en un entorno de producción, recomenda
     ### **2 Configurar y ejecutar el Frontend (React + Vite)**
 
     cd marketplace/comics-market
+    
     npm install
+
+    npm install axios
+
     npm run dev
 
 ## 📌 Branch más actualizada
