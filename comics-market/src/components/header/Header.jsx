@@ -10,7 +10,7 @@ export default function Header() {
     <header className={styles.headerContainer}>
       <Logo />
       <Navbar>
-        <NavItem href="/home" text="Home" />
+        <NavItem href="/home" text="Store" />
         <NavItem href="/favorites" text="Favorites" />
       </Navbar>
       <Button className={clsx(styles.button, styles.logIn)} text="Log in" />

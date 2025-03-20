@@ -9,8 +9,8 @@ export default function WelcomePage() {
       <Header />
       <div className={styles.container}>
         <h1>BOOM COMICS</h1>
-        <h2>The Ultimate Comic Heaven!</h2>
-        <h6 className={styles.blueTitle}>WELCOME PAGE</h6>
+        <h6>The Ultimate Comic Heaven!</h6>
+        <h6>Enjoy the friki paradise</h6>
       </div>
       <Footer />
     </>
