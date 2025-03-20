@@ -1,4 +1,4 @@
-export interface Comic {
+export default interface Comic {
   id: string;
   ISBN: string;
   name: string;
@@ -8,11 +8,10 @@ export interface Comic {
   state: boolean;
   editorial: string;
   description: string;
-  ulrImage: string;
-  user?: User;
+  urlImage: string;
 }
 
-export interface User {
+export default interface User {
   id: string;
   name: string;
   surname: string;
