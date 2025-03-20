@@ -42,6 +42,10 @@ Si deseas mejorar la calidad del código en un entorno de producción, recomenda
     npm install
     npm run dev
 
+## 📌 Branch más actualizada
+
+🔹 Develop
+
 ## 📌 Próximas Mejoras
 
 🔹 Añadir listado de favoritos
