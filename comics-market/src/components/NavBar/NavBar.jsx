@@ -1,10 +1,9 @@
-import "./NavBar.css";
+import styles from "./Navbar.module.css";
 
-const NavBar = () => {
+export default function Navbar({ children }) {
   return (
-    <nav>
+    <nav className={styles.navbar}>
+      <ul className={styles.navList}>{children}</ul>
     </nav>
   );
-};
-
-export default NavBar;
+}

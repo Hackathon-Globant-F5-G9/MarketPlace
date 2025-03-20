@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ComicsList.module.css";
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import Price from "../price/Price";
 import clsx from "clsx";
 import { FaHeart } from "react-icons/fa";
