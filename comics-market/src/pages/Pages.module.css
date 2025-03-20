@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: var(--quinary-color);
   font-family: var(--font-family);
   line-height: var(--line-height);
