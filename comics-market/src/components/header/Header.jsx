@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import Logo from "../logo/Logo";
 import Navbar from "../navbar/Navbar";
-import NavItem from "../navitem/NavItem";
+import NavItem from "../navitem/Navitem";
 import Button from "../button/Button";
 import clsx from "clsx";
 
