@@ -1,0 +1,43 @@
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 90px;
+}
+
+.filterInput {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--quinary-color);
+    border-radius: 5px;
+    margin-right: 1rem;
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+}
+
+.filterButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    color: var(--quinary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: var(--cuaternary-color);
+}
+
+@media (max-width: 768px) {
+    .filterContainer {
+        margin-top: 220px;
+    }
+}

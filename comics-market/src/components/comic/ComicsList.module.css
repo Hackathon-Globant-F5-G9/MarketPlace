@@ -1,0 +1,156 @@
+.comicsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comicCard {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--quinary-color);
+    /* Fondo blanco */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comicCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.favoriteIcon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.3);
+    /* Corazón gris claro por defecto */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.favoriteIcon:hover {
+    color: var(--tertiary-color);
+    /* Rojo al pasar el mouse */
+}
+
+.favoriteActive {
+    color: var(--tertiary-color);
+    /* Rojo cuando está activo */
+}
+
+.comicImage {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.comicContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 8%;
+}
+
+.comicName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.comicDetails {
+    background-color: rgba(200, 200, 200, 0.3);
+    /* Fondo grisáceo */
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.comicAuthor,
+.comicEditorial,
+.comicGenre {
+    font-size: 0.6rem;
+    color: var(--primary-color);
+    margin-bottom: 0.2rem;
+    /* Reduce el espacio entre líneas */
+}
+
+.comicDescription {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy {
+    color: var(--quinary-color);
+    background-color: var(--cuaternary-color);
+}
+
+.buy:hover {
+    background-color: var(--tertiary-color);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .comicCard {
+        flex-direction: column;
+        /* Cambia a diseño vertical en pantallas pequeñas */
+        align-items: flex-start;
+    }
+
+    .comicImage {
+        width: 100%;
+        /* Imagen ocupa todo el ancho */
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .comicContent {
+        width: 100%;
+        /* Contenido ocupa todo el ancho */
+    }
+}
+
+@media (max-width: 480px) {
+    .comicName {
+        font-size: 1rem;
+    }
+
+    .comicAuthor,
+    .comicEditorial,
+    .comicGenre,
+    .comicDescription {
+        font-size: 0.8rem;
+    }
+
+    .button {
+        height: 2rem;
+        width: 5rem;
+        font-size: 0.9rem;
+    }
+}
