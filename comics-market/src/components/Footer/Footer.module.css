@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"');
+
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--quinary-color);
+    bottom: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif; 
+    padding-inline: 5.5rem;  
+    position:fixed; /*checkear position del footer*/
+    bottom: 0;
+    
+}
+
+.footerLogo{
+    font-family: "Jersey 25", sans-serif; 
+    font-size: 3.2rem;
+}
+
+footer ul{
+    list-style: none;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--quinary-color);
+}
+
+footer a:hover{
+    color: var(--tertiary-color);
+}
+
+footer .socialMedia{
+    cursor: pointer;
+    font-size: 2.7rem;
+}
+
+footer .socialMediaIcon:hover{
+    color: var(--tertiary-color);
+}
+
+footer .contentFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-block: 3rem;
+    gap: 2rem;
+}
+
+footer .navbar ul{
+    display: flex;
+    gap: 4.5rem;
+}
+
+footer .copyright{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1115px) {
+
+    footer{
+        padding-inline: 2.5rem;
+    }
+    footer .navbar ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footerLogo{
+        display: none;
+    }
+  }
