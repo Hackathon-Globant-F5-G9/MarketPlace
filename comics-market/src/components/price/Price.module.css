@@ -1,0 +1,42 @@
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    /* Espaciado entre precio y envío */
+    margin: 0.5rem 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--tertiary-color);
+    /* Color destacado para el precio */
+}
+
+.shipping {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    /* Color más tenue para el envío */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .price {
+        font-size: 1.3rem;
+    }
+
+    .shipping {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .price {
+        font-size: 1.1rem;
+    }
+
+    .shipping {
+        font-size: 0.8rem;
+    }
+}
