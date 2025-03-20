@@ -7,6 +7,7 @@ import { FaHeart } from "react-icons/fa";
 import { useFavorites } from "../../context/FavoritesContext";
 import ComicModal from "../modal/Modal"; // Importar el Modal
 
+
 export default function ComicsList({ comics }) {
   const [selectedComic, setSelectedComic] = useState(null);
 
@@ -22,6 +23,7 @@ export default function ComicsList({ comics }) {
     <div className={styles.comicsContainer}>
       {comics.map((comic) => (
         <ComicCard key={comic.isbn} comic={comic} onCardClick={handleCardClick} />
+        
       ))}
       {/* Mostrar el modal si hay un cómic seleccionado */}
       {selectedComic && <ComicModal comic={selectedComic} onClose={closeModal} />}
