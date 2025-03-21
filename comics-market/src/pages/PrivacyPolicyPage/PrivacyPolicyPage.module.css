@@ -1,51 +1,42 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-  color: black;
-  font-size: 2rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  padding-top: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"');
+
+
+
+section{
+    font-family: "Inter", sans-serif;
+    padding-left: 14rem;
+    background-color: var(--senary-color);
+    padding-block: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 7rem;
+    background-color: rgb(32, 32, 32);
+      
+}
+section .paragraph{
+    padding-left: 5rem;
+    font-size: 2rem;
 }
 
-.container p {
-  text-align: left;
-  width: 100%;
-  margin-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+section .title{
+    display: flex;
+    align-items:first baseline;
+    font-size:2.8rem;
+}d
+
+.logoTitle{
+    font-family: "Jersey 25";
+    font-size: 5rem;
 }
 
-.container ul {
-  text-align: left;
-  width: 100%;
-  margin-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+@media only screen and (max-width: 850px) {
+section {
+    padding-left: 3rem;
+    padding-top: 14rem;
 }
-
-.container h2 {
-  text-align: center;
-  width: 100%;
-  margin-top: 20px;
+section .paragraph{ 
+    padding-left: 0.5rem;
+    
 }
-
-.container h3 {
-  text-align: left;
-  width: 100%;
-  margin-top: 40px;
-  padding-left: 140px;
-}
-
-.container h6 {
-  text-align: left;
-  width: 100%;
-  margin-top: 40px;
-  margin-bottom: 100px;
-  padding-left: 140px;
-}
+  
+  }
