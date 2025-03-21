@@ -25,7 +25,7 @@ export default function ContactPage() {
         <textarea id="message" name="message" rows="4"></textarea>
       </div><br />
 
-      <button type="submit">Enviar</button>
+      <button type="submit">Send</button>
     </form>
            
         </section>
