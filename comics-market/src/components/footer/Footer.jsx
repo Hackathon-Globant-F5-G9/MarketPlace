@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 import Navbar from "../navbar/Navbar";
-import NavItem from "../navitem/NavItem";
+import NavItem from "../navitem/Navitem";
 import Logo from "../logo/Logo";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -13,7 +13,7 @@ export default function Footer() {
       <Navbar>
         <NavItem href="/privacypolicy" text="Privacy Policy" />
         <NavItem href="#terms" text="Terms of Service" />
-        <NavItem href="#contact" text="Contact Us" />
+        <NavItem href="/contact" text="Contact Us" />
       </Navbar>
       <div className={styles.iconContainer}>
         <FaFacebook className={styles.icon} />

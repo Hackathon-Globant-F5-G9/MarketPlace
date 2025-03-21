@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import Logo from "../logo/Logo";
 import Navbar from "../navbar/Navbar";
-import NavItem from "../navitem/NavItem";
+import NavItem from "../navitem/Navitem";
 import Button from "../button/Button";
 import clsx from "clsx";
 
@@ -10,11 +10,12 @@ export default function Header() {
     <header className={styles.headerContainer}>
       <Logo />
       <Navbar>
-        <NavItem href="/home" text="Home" />
+        <NavItem href="/home" text="Store" />
         <NavItem href="/favorites" text="Favorites" />
       </Navbar>
-      <Button className={clsx(styles.button, styles.logIn)} text="Log in" />
-      <Button className={clsx(styles.button, styles.sell)} text="Sell" />
+      <Button buttonClass="logIn" text="Log in" />
+      <Button buttonClass="sell" text="Sell" />
+
     </header>
   );
 }

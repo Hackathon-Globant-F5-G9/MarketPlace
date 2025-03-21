@@ -7,9 +7,8 @@ section{
     background-color: var(--senary-color);
     padding-block: 3rem;
     padding-bottom: 4rem;
-    padding-top: 7rem;
-    background-color: rgb(32, 32, 32);
-      
+    font-size: 1.5rem ;
+     
 }
 section .paragraph{
     padding-left: 5rem;
@@ -28,6 +27,24 @@ section .title{
     font-size: 5rem;
 }
 
+form{
+    width: 40%;
+}
+
+.contactItem{
+    display: flex;
+    
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+input{
+    width: 23rem;
+}
+
+textarea{
+    width: 23rem;
+}
 @media only screen and (max-width: 850px) {
 section {
     padding-left: 3rem;
@@ -36,6 +53,9 @@ section {
 section .paragraph{ 
     padding-left: 0.5rem;
     
+}
+form{
+    width: 80%;
 }
   
   }
